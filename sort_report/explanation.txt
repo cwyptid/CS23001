@@ -1,0 +1,5 @@
+std::vector<int, std::allocator<int> >::operator[] takes up the majority of the runtime. (36.35%)
+HOWEVER, it has multiple calls to it. 
+What I found to be particularly impressive was the amount of runtime bubble_sort took up. 16.49% just for one call. 
+I feel as though this implies that the bottleneck occurs at this bubble_sort function, and that is due to the number of times that
+bubble_sort accesses the vector. 

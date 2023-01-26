@@ -1,0 +1,36 @@
+P1 
+
+m1: 100
+m2: 90 (regrade) - you already had 90 but you cant get above 90 for regrade even if everything is correct
+m3: 95 - inadequte tests; its a bigint project, so test them and not just single digit ints
+
+bonus: 
+
+
+P2
+
+m1: 90 (regrade)
+m2: 100 (regrade) - 90 cap for regrades normally - testoracle error exception here
+m3: 100
+m4: 95 - not parsing day correctly
+
+bonus: 
+
+P3 
+
+m1: 100
+m2: 100
+m3: 85 - assembler output is wrong, for example the 2nd infix expression output in data3-1.txt should look like the one on the lab page as its the same format;
+	should output as infix1->post1->assembler1->infix2->etc., not all post then all assembler
+
+bonus: 
+
+P4
+
+m1: 90 (regrade)
+m2: 100
+m3: 70 - make p-sort doesnt compile -> linker error;
+
+bonus: 
+
+
